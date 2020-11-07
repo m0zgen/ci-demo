@@ -1,0 +1,14 @@
+---
+version: 2
+plan:
+  project-key: CIP
+  key: CIP
+  name: Default Job
+stages:
+  - Build:
+    - Build
+
+Build:
+  tasks:
+    - script:
+      - echo 'Hello World!'
